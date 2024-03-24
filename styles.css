@@ -109,6 +109,10 @@ footer {
     width: 100%;
 }
 
+a:hover, a:active {
+    background-color: #51a1f7;
+}
+
 /* Estilos Responsivos */
 @media screen and (max-width: 768px) {
     header {
