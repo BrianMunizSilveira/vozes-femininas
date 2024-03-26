@@ -1,5 +1,7 @@
 # Vozes Femininas: Celebrando o Legado e o Impacto das Mulheres Notáveis
 
+<img src="src/img/logo.png">
+
 Bem-vindo ao "Vozes Femininas"! 👩‍🎓🎨🌍 Este projeto é uma homenagem às vozes femininas que deixaram um legado extraordinário em diversos campos, incluindo ciência, arte, política, esportes e muito mais. Explore conosco as histórias de líderes visionárias, cientistas brilhantes, artistas talentosas, ativistas corajosas e muitas outras figuras notáveis que moldaram o curso da história.
 
 Neste espaço, mergulhe na riqueza das conquistas e realizações dessas mulheres extraordinárias, que desafiaram as normas, superaram obstáculos e deixaram um legado duradouro em uma variedade de campos, desde ciência e tecnologia até artes, política, esportes e muito mais. 📚🎬⚽
