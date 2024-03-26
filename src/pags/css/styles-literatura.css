@@ -30,13 +30,18 @@
     margin: 10px;
     padding: 15px;
     text-align: center;
+    max-height: 450px; /* Defina uma altura máxima fixa para os cards */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura máxima */
     
 }
 
 /* Estilo para a imagem dentro do card */
 .card img {
     max-width: 100%;
-    border-radius: 8px;
+    height: 200px; /* Defina uma altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível */
+    border-top-left-radius: 8px; /* Garante que a borda superior da imagem seja arredondada */
+    border-top-right-radius: 8px; /* Garante que a borda superior da imagem seja arredondada */
 }
 
 /* Estilo para o título dentro do card */
@@ -50,16 +55,21 @@
 .card p {
     color: #666;
     max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona reticências (...) para indicar que há mais texto oculto */
+    -webkit-line-clamp: 8; /* Limita o número de linhas de texto a serem exibidas */
+    -webkit-box-orient: vertical; /* Define a orientação vertical para o texto */
+    display: -webkit-box; /* Habilita o layout de caixa flexível do WebKit */
 }
 
-a {
+/* Estilo para os links dentro do card */
+.card a {
+    color: #3019fc; /* Cor do link */
     text-decoration: none;
 }
 
-a:hover {
-    color: #3019fc81;
+
+.card a:hover {
+    color: #3019fc81; /* Cor do link ao passar o mouse */
 }
 
-section {
-    background-color: #ff0000;
-}
