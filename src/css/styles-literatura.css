@@ -1,29 +1,62 @@
-/* Estilos para Cada Seção */
-#literatura .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#literatura .card {
-    width: calc(33.33% - 20px);
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Estilo para a seção Literatura */
+#literatura {
     padding: 20px;
+    background-color: #d5d5d5;
 }
 
-#literatura .card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+/* Estilo para o título da seção */
+#literatura h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
 }
 
-#literatura .card h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+/* Estilo para o container dos cards */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-#literatura .card p {
-    font-size: 1.1em;
+/* Estilo para cada card */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo para a imagem dentro do card */
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilo para o título dentro do card */
+.card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Estilo para o texto descritivo dentro do card */
+.card p {
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3019fc81;
+}
+
+section {
+    background-color: #ff0000;
 }
