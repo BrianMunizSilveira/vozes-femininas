@@ -22,8 +22,7 @@
 
 /* Estilo para cada card */
 .card {
-    width: 300px;
-    max-height: 50%;
+    width: calc(33.33% - 20px); /* Ajusta a largura dos cards para que haja três por linha */
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -32,7 +31,6 @@
     text-align: center;
     max-height: 450px; /* Defina uma altura máxima fixa para os cards */
     overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura máxima */
-    
 }
 
 /* Estilo para a imagem dentro do card */
@@ -68,8 +66,19 @@
     text-decoration: none;
 }
 
-
 .card a:hover {
     color: #3019fc81; /* Cor do link ao passar o mouse */
 }
 
+/* Regras de mídia para dispositivos menores */
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Ajusta a largura dos cards para que haja dois por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* Ajusta a largura dos cards para que haja apenas um por linha */
+    }
+}
