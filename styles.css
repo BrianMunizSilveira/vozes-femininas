@@ -113,13 +113,13 @@ main, header, a, footer {
 }
 
 .card {
-    background-color: #d8ffff7b;
+    background-color: #D6A2E8;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
     width: 500px;
-    height: 450px;
+    height: 430px;
 }
 
 .card img {
