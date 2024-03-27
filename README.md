@@ -1,4 +1,4 @@
-# Vozes Femininas: Celebrando o Legado e o Impacto das Mulheres Notáveis
+# Vozes Femininas: Celebrando o Legado e o Impacto das Mulheres
 
 <img src="src/img/logo.png" width="400px" height="400px">
 
