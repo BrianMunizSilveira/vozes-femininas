@@ -4,7 +4,7 @@
 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=DESENVOLVEDORES&message=Decfalter%20e%20Cat&color=RED&style=for-the-badge"/> <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/> <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 
-## Sobre o Projeto
+## Descrição do projeto
 
 Bem-vindo ao "Vozes Femininas"! 👩‍🎓🎨🌍 Este projeto é uma homenagem às vozes femininas que deixaram um legado extraordinário em diversos campos, incluindo ciência, arte, política, esportes e muito mais. Explore conosco as histórias de líderes visionárias, cientistas brilhantes, artistas talentosas, ativistas corajosas e muitas outras figuras notáveis que moldaram o curso da história.
 
@@ -16,7 +16,7 @@ Junte-se a nós nesta jornada emocionante enquanto exploramos o impacto transfor
 
 "Vozes Femininas" é mais do que um site; é um tributo à força e à beleza da diversidade feminina e à capacidade ilimitada das mulheres de criar mudanças positivas em nosso mundo. 🌺🌎
 
-## Layout ou Deploy da Aplicação :dash:
+## Deploy da Aplicação :dash:
 > Link do Deploy: https://bespoke-empanada-4aa5dd.netlify.app/
 
 <h2 id="tecnologias">Tecnologias utilizadas</h2>
@@ -27,7 +27,7 @@ Junte-se a nós nesta jornada emocionante enquanto exploramos o impacto transfor
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-<p id="autor">Desenvolvido por:
+## Desenvolvido por:
   
 | [<img src="https://avatars.githubusercontent.com/u/163086339?v=4" width=115><br><sub>Decfalter</sub>](https://github.com/DevDecfalter) |  [<img src="https://avatars.githubusercontent.com/u/159913461?v=4" width=115><br><sub>Cat</sub>](https://github.com/https://github.com/JGuilherme2005) |   |
 | :---: | :---: | :---: 
