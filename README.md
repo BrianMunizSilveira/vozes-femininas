@@ -4,6 +4,8 @@
 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=DESENVOLVEDORES&message=Decfalter%20e%20Cat&color=RED&style=for-the-badge"/> <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/> <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 
+## Sobre o Projeto
+
 Bem-vindo ao "Vozes Femininas"! 👩‍🎓🎨🌍 Este projeto é uma homenagem às vozes femininas que deixaram um legado extraordinário em diversos campos, incluindo ciência, arte, política, esportes e muito mais. Explore conosco as histórias de líderes visionárias, cientistas brilhantes, artistas talentosas, ativistas corajosas e muitas outras figuras notáveis que moldaram o curso da história.
 
 Neste espaço, mergulhe na riqueza das conquistas e realizações dessas mulheres extraordinárias, que desafiaram as normas, superaram obstáculos e deixaram um legado duradouro em uma variedade de campos, desde ciência e tecnologia até artes, política, esportes e muito mais. 📚🎬⚽
