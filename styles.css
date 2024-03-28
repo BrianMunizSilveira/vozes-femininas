@@ -41,7 +41,7 @@ header > p {
     color: #8A4DAC;
     font-size: 1.7em;
     font-family: Arial, verdana helvetica, sans-serif;
-    width: 1254px;
+
     margin: auto;
     margin-bottom: 20px;
     padding-right: 10px;
@@ -88,11 +88,8 @@ main {
 }
 
 .banner p {
-    font-size: 1.3em;
-    margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    text-shadow: 2px 2px 0px rgba(255, 139, 253, 0.315);
     color: #8A4DAC;
 }
 
@@ -134,6 +131,11 @@ main {
 
 .container {
     text-align: center;
+}
+
+.destaques {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container p {
