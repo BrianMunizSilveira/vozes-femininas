@@ -1,3 +1,4 @@
+/* Fonte personalizada */
 @font-face {
     font-family: '1917 Epoque';
     src: url(src/font/1927_epoque/1927\ Epoque.otf) format('truetype');
@@ -6,6 +7,7 @@
 }
 
 /* Reset de Estilos */
+/* Define estilos padrão para todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -13,23 +15,21 @@
 }
 
 /* Estilos Globais */
+/* Define estilos para elementos globais como body, header, etc. */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #FFFFFF  ;
+    background-color: #FFFFFF;
     color: #333;
 }
 
 header {
-    background-color: #D6A2E8  ;
+    background-color: #D6A2E8;
     color: #fff;
     padding: 20px;
 }
 
-main {
-    background-color: #f9f9f9 ;
-}
-
+/* Define estilos específicos para o cabeçalho */
 header h1 {
     margin: 0;
     text-align: center;
@@ -37,11 +37,8 @@ header h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
-header > p { 
-    
-    /*  esse eh so um teste a antiga era #33333 algo assim :b #8A4DAC */ 
-
-    color: #8A4DAC   ;
+header > p {
+    color: #8A4DAC;
     font-size: 1.7em;
     font-family: Arial, verdana helvetica, sans-serif;
     width: 1254px;
@@ -52,7 +49,6 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
-
 nav ul {
     list-style: none;
 }
@@ -62,25 +58,25 @@ nav ul li {
     margin-right: 20px;
 }
 
-
-
 nav ul li a {
-    color: #8A4DAC   ;
+    color: #8A4DAC;
     text-decoration: none;
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 main {
+    background-color: #f9f9f9;
     padding: 20px;
 }
 
-main, header, a, footer {
-    font: normal 1em '1917 Epoque'
+/* Define estilos para a fonte personalizada em elementos específicos */
+.main, header, a, footer {
+    font: normal 1em '1917 Epoque';
 }
 
+/* Define estilos para o banner */
 .banner {
     text-align: center;
     padding: 50px 0;
@@ -97,15 +93,14 @@ main, header, a, footer {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-    color: #8A4DAC ;
-    
+    color: #8A4DAC;
 }
 
 .banner a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #333333 ;
+    background-color: #D6A2E8;
+    color: #333333;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -120,7 +115,6 @@ main, header, a, footer {
     color: #8a4baf;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
-
 
 .card {
     background-color: #D6A2E8;
@@ -140,7 +134,6 @@ main, header, a, footer {
 
 .container {
     text-align: center;
-
 }
 
 .container p {
@@ -162,8 +155,8 @@ main, header, a, footer {
 
 footer {
     text-align: center;
-    background-color: #D6A2E8  ;
-    color: #8a4baf ;
+    background-color: #D6A2E8;
+    color: #8a4baf;
     padding: 20px;
     position: relative;
     bottom: 0;
@@ -172,7 +165,6 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
 }
-
 
 a:hover, a:active {
     background-color: #6a389a;
@@ -231,5 +223,3 @@ a:hover, a:active {
         padding: 10px;
     }
 }
-
-

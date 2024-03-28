@@ -1,3 +1,11 @@
+/* Fontes */
+@font-face {
+    font-family: '1917 Epoque';
+    src: url(src/font/1927_epoque/1927\ Epoque.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Reset de Estilos */
 * {
     margin: 0;
@@ -7,38 +15,39 @@
 
 /* Estilos Globais */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: '1917 Epoque', arial, cursive;
     background-color: #f8f8f8;
     color: #333;
 }
 
+/* Estilos do cabeçalho */
 header {
-    background-color: #007bff;
+    background-color: #D6A2E8;
     color: #fff;
     padding: 20px;
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 auto 20px;
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    color: #8A4DAC;
+    font-size: 1.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.315);
 }
 
-header > p { 
-
-    color: white;
+header > p {
+    color: #8A4DAC;
     font-size: 1.7em;
     font-family: Arial, verdana helvetica, sans-serif;
     width: 1254px;
     margin: auto;
     margin-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 119px;
+    padding: 0 10px 0 119px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-    }
+}
 
+/* Estilos da navegação */
 nav ul {
     list-style: none;
 }
@@ -48,20 +57,21 @@ nav ul li {
     margin-right: 20px;
 }
 
-
-
-
 nav ul li a {
-    color: #fff;
+    color: #8A4DAC;
     text-decoration: none;
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
+/* Estilos do conteúdo principal */
 main {
     padding: 20px;
+}
+
+.main, header, a, footer {
+    font: normal 1.3em '1917 Epoque';
 }
 
 .container {
@@ -87,19 +97,26 @@ main {
     margin-bottom: 10px;
 }
 
-.container ul li a {
-    color: #007bff;
+.container ul li  {
+    color: #6a389a;
     text-decoration: none;
 }
 
+/* Estilos do rodapé */
 footer {
     text-align: center;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #D6A2E8;
+    color: #582786;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
-    
 }
 
+/* Estilos dos links */
+a:hover,
+a:active {
+    background-color: #6a389a;
+    color: #ffffff;
+}
