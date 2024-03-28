@@ -33,13 +33,15 @@ main {
 header h1 {
     margin: 0;
     text-align: center;
-    color: #8a4baf   ;
+    color: #8a4baf;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 header > p { 
+    
+    /*  esse eh so um teste a antiga era #33333 algo assim :b #8A4DAC */ 
 
-    color: #333333   ;
+    color: #8A4DAC   ;
     font-size: 1.7em;
     font-family: Arial, verdana helvetica, sans-serif;
     width: 1254px;
@@ -63,7 +65,7 @@ nav ul li {
 
 
 nav ul li a {
-    color: #333333    ;
+    color: #8A4DAC   ;
     text-decoration: none;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -90,8 +92,13 @@ main, header, a, footer {
 }
 
 .banner p {
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    color: #8A4DAC ;
+    
 }
 
 .banner a {
@@ -107,10 +114,13 @@ main, header, a, footer {
     margin-top: 50px;
 }
 
-.destaque h2 {
+.destaques h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #8a4baf;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
+
 
 .card {
     background-color: #D6A2E8;
@@ -145,18 +155,24 @@ main, header, a, footer {
 }
 
 .card p {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
 }
 
 footer {
     text-align: center;
     background-color: #D6A2E8  ;
-    color: #333333 ;
+    color: #8a4baf ;
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
 }
+
 
 a:hover, a:active {
     background-color: #6a389a;
