@@ -133,10 +133,7 @@ main {
     text-align: center;
 }
 
-.destaques {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .container p {
     text-align: center;

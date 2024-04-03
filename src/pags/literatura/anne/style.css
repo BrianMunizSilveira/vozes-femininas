@@ -1,17 +1,9 @@
 /* Fontes */
-@font-face {
-    font-family: '1917 Epoque';
-    src: url(src/font/1927_epoque/1927\ Epoque.otf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Estilos Globais */
 body {
-    font-family: '1917 Epoque', Arial, sans-serif;
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 /* Estilos do Cabeçalho */
@@ -19,47 +11,56 @@ header {
     background-color: #8A4DAC;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
 }
 
 /* Estilos do Contêiner */
 .container {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-gap: 20px;
-    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Estilos da Navegação */
 nav ul {
-    list-style-type: none; /* Removendo marcadores de lista */
+    list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #8A4DAC;
     display: block;
-    padding: 10px;
-    border: 1px solid #8A4DAC;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Adicionando transição suave */
+    padding: 15px;
+    border: 2px solid #8A4DAC;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
     background-color: #8A4DAC;
-    color: #fff;
+    color: white;
 }
 
 /* Estilos do Conteúdo Principal */
 main {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 /* Estilos do Rodapé */
@@ -68,25 +69,4 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-/* Regras de mídia para dispositivos menores */
-@media (max-width: 768px) {
-    nav ul li {
-        margin: 5px 0;
-    }
-
-    nav ul li a {
-        padding: 8px 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 10px 0;
-    }
-
-    nav ul li a {
-        padding: 6px 12px;
-    }
 }
