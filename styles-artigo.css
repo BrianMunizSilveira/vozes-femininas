@@ -1,11 +1,3 @@
-/* Fontes */
-@font-face {
-    font-family: '1917 Epoque';
-    src: url(src/font/1927_epoque/1927\ Epoque.otf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Reset de Estilos */
 * {
     margin: 0;
@@ -15,14 +7,14 @@
 
 /* Estilos Globais */
 body {
-    font-family: '1917 Epoque', arial, cursive;
+    font-family: '1917 Epoque', Arial, Helvetica, sans-serif;
     background-color: #f8f8f8;
     color: #333;
 }
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #D6A2E8;
+    background-color: #ca2b5b;
     color: #fff;
     padding: 20px;
 }
@@ -30,26 +22,21 @@ header {
 header h1 {
     margin: 0 auto 20px;
     text-align: center;
-    color: #8A4DAC;
     font-size: 1.9em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.315);
 }
 
 header > p {
-    color: #8A4DAC;
     font-size: 1.7em;
-    font-family: Arial, verdana helvetica, sans-serif;
-    width: 1254px;
     margin: auto;
     margin-bottom: 20px;
-    padding: 0 10px 0 119px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    max-width: 800px;
+    padding: 0 20px;
 }
 
 /* Estilos da navegação */
 nav ul {
     list-style: none;
+    text-align: center;
 }
 
 nav ul li {
@@ -58,20 +45,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #8A4DAC;
+    color: #ffdbdb;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 /* Estilos do conteúdo principal */
 main {
     padding: 20px;
-}
-
-.main, header, a, footer {
-    font: normal 1.3em '1917 Epoque';
 }
 
 .container {
@@ -97,17 +78,50 @@ main {
     margin-bottom: 10px;
 }
 
-.container ul li  {
+.container ul li a {
     color: #6a389a;
     text-decoration: none;
+}
+
+/* Estilos dos cards */
+.card {
+    width: calc(33.33% - 20px); /* Ajusta a largura dos cards para que haja três por linha */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
 }
 
 /* Estilos do rodapé */
 footer {
     text-align: center;
-    background-color: #D6A2E8;
-    color: #582786;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    background-color: #ca2b5b;
+    color: #fff;
     padding: 20px;
     position: relative;
     bottom: 0;
@@ -117,6 +131,19 @@ footer {
 /* Estilos dos links */
 a:hover,
 a:active {
-    background-color: #6a389a;
-    color: #ffffff;
+    background-color: #BFA0C7;
+    color: #fff;
+}
+
+/* Regras de mídia para dispositivos menores */
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px);
+    }
 }

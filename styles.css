@@ -1,54 +1,44 @@
-/* Fonte personalizada */
-@font-face {
-    font-family: '1917 Epoque';
-    src: url(src/font/1927_epoque/1927\ Epoque.otf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/* Paleta de cores */
+:root {
+    --rosa-suave: #ca2b5b;
+    --roxo-suave: #b864cd;
+    --cinza-claro: #EDEDED;
+    --branco: #FFFFFF;
 }
 
-/* Reset de Estilos */
-/* Define estilos padrão para todos os elementos */
+/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos Globais */
-/* Define estilos para elementos globais como body, header, etc. */
+/* Estilo para o corpo da página */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #FFFFFF;
-    color: #333;
+    background-color: var(--cinza-claro);
 }
 
+/* Estilo para o cabeçalho */
 header {
-    background-color: #D6A2E8;
-    color: #fff;
+    background-color: var(--rosa-suave);
+    color: var(--branco);
     padding: 20px;
-}
-
-/* Define estilos específicos para o cabeçalho */
-header h1 {
-    margin: 0;
     text-align: center;
-    color: #8a4baf;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
-header > p {
-    color: #8A4DAC;
-    font-size: 1.7em;
-    font-family: Arial, verdana helvetica, sans-serif;
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
 
-    margin: auto;
+header p {
+    font-size: 18px;
     margin-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 119px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
+/* Estilo para a navegação */
 nav ul {
     list-style: none;
 }
@@ -59,163 +49,152 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #8A4DAC;
+    color: var(--branco);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    font-size: 18px;
 }
 
-main {
-    background-color: #f9f9f9;
-    padding: 20px;
-}
-
-/* Define estilos para a fonte personalizada em elementos específicos */
-.main, header, a, footer {
-    font: normal 1em '1917 Epoque';
-}
-
-/* Define estilos para o banner */
+/* Estilo para a seção de banner */
 .banner {
+    padding: 20px;
     text-align: center;
-    padding: 50px 0;
 }
 
 .banner h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .banner p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 0px rgba(255, 139, 253, 0.315);
-    color: #8A4DAC;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .banner a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #D6A2E8;
-    color: #333333;
-    text-decoration: none;
-    border-radius: 5px;
+    color: var(--rosa-suave);
+    text-decoration: underline;
 }
 
-.destaque {
-    margin-top: 50px;
-}
-
-.destaques h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #8a4baf;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-}
-
+/* Estilo para os cards */
 .card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    width: 500px;
-    height: 430px;
+    padding: 20px;
 }
 
 .card img {
-    width: 35%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
+    border-radius: 8px;
 }
-
-.container {
-    text-align: center;
-}
-
-
-
-.container p {
-    text-align: center;
-    height: 80px;
-    font: normal 1.2em '1917 Epoque';
-}
-
 .card h3 {
-    font-size: 1.5em;
+    font-size: 24px;
     margin-bottom: 10px;
-    color: #8A4DAC;
 }
 
 .card p {
-    color: #000;
-    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
+.card a {
+    color: var(--rosa-suave);
+    text-decoration: underline;
+}
+
+/* Estilo para o rodapé */
 footer {
+    background-color: var(--rosa-suave);
+    color: var(--branco);
     text-align: center;
-    background-color: #D6A2E8;
-    color: #8a4baf;
     padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
 }
 
-a:hover, a:active {
-    background-color: #6a389a;
-    color: #FFFFFF;
+/* Novas regras de mídia para dispositivos menores */
+@media (max-width: 768px) {
+    .card img {
+        max-width: 100%;
+        height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
+    }
 }
 
-/* Estilos Responsivos */
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
+@media (max-width: 480px) {
+    .card img {
+        max-width: 100%;
+        height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
     }
 
-    header h1 {
-        font-size: 1.5em;
+    header p {
+        font-size: 16px;
     }
 
     nav ul li {
         display: block;
-        margin-bottom: 10px;
+        margin: 10px 0;
     }
 
-    main {
-        padding: 10px;
-    }
-
-    .banner {
-        padding: 30px 0;
+    nav ul li a {
+        font-size: 16px;
     }
 
     .banner h2 {
-        font-size: 2em;
+        font-size: 20px;
     }
 
     .banner p {
-        font-size: 1em;
-    }
-
-    .banner a {
-        padding: 8px 16px;
+        font-size: 14px;
     }
 
     .card {
         padding: 10px;
-        margin-bottom: 10px;
     }
 
     .card h3 {
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .card p {
-        font-size: 1em;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+    }
+
+    .banner p {
+        font-size: 12px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 12px;
     }
 
     footer {
