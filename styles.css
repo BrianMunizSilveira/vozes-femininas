@@ -1,7 +1,7 @@
 /* Paleta de cores */
 :root {
     --rosa-suave: #ca2b5b;
-    --roxo-suave: #b864cd;
+    --roxo-suave: #e49cf6;
     --cinza-claro: #EDEDED;
     --branco: #FFFFFF;
 }
@@ -28,14 +28,22 @@ header {
     text-align: center;
 }
 
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+header nav ul li a {
+    color: var(--roxo-suave);
+}
+
+header nav ul li a:hover {
+    color: var(--branco);
 }
 
 header p {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 /* Estilo para a navegação */
@@ -49,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--branco);
+    color: var(--rosa-suave);
     text-decoration: none;
     font-size: 18px;
 }
@@ -82,12 +90,15 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
+    text-align: left; /* Alinhamento do texto nos cards */
 }
 
 .card img {
+    display: block; /* Garante que a imagem não tenha margens indesejadas */
     max-width: 100%;
-    height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
+    height: auto;
     border-radius: 8px;
+    margin-bottom: 10px; /* Espaçamento inferior entre a imagem e o texto */
 }
 .card h3 {
     font-size: 24px;
@@ -112,58 +123,7 @@ footer {
     padding: 20px;
 }
 
-/* Novas regras de mídia para dispositivos menores */
-@media (max-width: 768px) {
-    .card img {
-        max-width: 100%;
-        height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
-    }
-}
-
-@media (max-width: 480px) {
-    .card img {
-        max-width: 100%;
-        height: auto; /* Adiciona a altura automática para manter a proporção da imagem */
-    }
-
-    header p {
-        font-size: 16px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-    }
-
-    .banner h2 {
-        font-size: 20px;
-    }
-
-    .banner p {
-        font-size: 14px;
-    }
-
-    .card {
-        padding: 10px;
-    }
-
-    .card h3 {
-        font-size: 20px;
-    }
-
-    .card p {
-        font-size: 14px;
-    }
-
-    footer {
-        padding: 10px;
-    }
-}
-
+/* Media queries para ajustar o layout em dispositivos menores */
 @media (max-width: 480px) {
     header h1 {
         font-size: 24px;
