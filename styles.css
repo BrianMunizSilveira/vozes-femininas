@@ -5,7 +5,7 @@
     --cinza-claro: #EDEDED;
     --branco: #FFFFFF;
 
-    --rosa-empoderado: #FF4081; 
+    --rosa-empoderado: rgba(153, 0, 48); 
     --amarelo-resiliente: #FFEB3B;
     --azul-resiliente: #2979FF;
 }
@@ -46,11 +46,11 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--azul-resiliente);
+    color: var(--amarelo-resiliente);
 }
 
 li a:hover {
-    color: var(--amarelo-resiliente);
+    color: var(--azul-resiliente);
 }
 
 header p {
