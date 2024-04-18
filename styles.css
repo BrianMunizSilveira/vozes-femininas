@@ -4,6 +4,10 @@
     --roxo-suave: #e49cf6;
     --cinza-claro: #EDEDED;
     --branco: #FFFFFF;
+
+    --rosa-empoderado: #FF4081; 
+    --amarelo-resiliente: #FFEB3B;
+    --azul-resiliente: #2979FF;
 }
 
 /* Reset de estilos */
@@ -22,18 +26,31 @@ body {
 
 /* Estilo para o cabeçalho */
 header {
-    background-color: var(--rosa-suave);
-    color: var(--branco);
+    background-color: var(--rosa-empoderado);
+    margin: 10px;
     padding: 20px;
     text-align: center;
 }
 
-header nav ul li a {
-    color: var(--roxo-suave);
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header nav ul li a:hover {
-    color: var(--branco);
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--azul-resiliente);
+}
+
+li a:hover {
+    color: var(--amarelo-resiliente);
 }
 
 header p {
@@ -44,28 +61,6 @@ header p {
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
-}
-
-/* Estilo para a navegação */
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: var(--rosa-suave);
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    color: #ff0000;
-    text-decoration: none;
-    font-size: 18px;
 }
 
 /* Estilo para a seção de banner */
@@ -96,16 +91,17 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
-    text-align: left; /* Alinhamento do texto nos cards */
+    text-align: left;
 }
 
 .card img {
-    display: block; /* Garante que a imagem não tenha margens indesejadas */
+    display: block;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 10px; /* Espaçamento inferior entre a imagem e o texto */
+    margin-bottom: 10px;
 }
+
 .card h3 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -139,7 +135,7 @@ footer {
         font-size: 14px;
     }
 
-    nav ul li a {
+    header nav ul li a {
         font-size: 14px;
     }
 
@@ -165,5 +161,12 @@ footer {
 
     footer {
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li:first-child,
+    header nav ul li:last-child {
+        display: none;
     }
 }
