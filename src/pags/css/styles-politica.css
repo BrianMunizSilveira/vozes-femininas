@@ -1,29 +1,59 @@
-/* Estilos para Cada Seção */
-#politica .container {
-    display: flex;
-    flex-wrap: wrap;
+/* Fontes */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-#politica .card {
-    width: calc(33.33% - 20px);
-    margin: 10px;
-    background-color: #fff;
+/* Estilos do Cabeçalho */
+header {
+    background-color: #8A4DAC;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos do Contêiner */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos da Navegação */
+nav ul {
+    list-style-type: none; /* Removendo marcadores de lista */
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8A4DAC;
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Adicionando transição suave */
 }
 
-#politica .card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
+nav ul li a:hover {
+    background-color: #8A4DAC;
+    color: #fff;
 }
 
-#politica .card h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+/* Estilos do Conteúdo Principal */
+main {
+    padding: 20px 0;
 }
 
-#politica .card p {
-    font-size: 1.1em;
+/* Estilos do Rodapé */
+footer {
+    background-color: #8A4DAC;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
