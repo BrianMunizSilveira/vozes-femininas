@@ -1,8 +1,8 @@
 # Vozes Femininas: Celebrando o Legado e o Impacto das Mulheres
 
-:small_blue_diamond: [Descrição do projeto](https://github.com/DevDecfalter/Vozes-Femininas-Celebrando-o-Legado-e-o-Impacto-das-Mulheres?tab=readme-ov-file#sobre-o-projeto)
+:small_blue_diamond: [Descrição do projeto](https://github.com/DevDecfalter/Vozes-Femininas?tab=readme-ov-file#descri%C3%A7%C3%A3o-do-projeto)
 
-:small_blue_diamond: [Deploy da Aplicação](https://github.com/DevDecfalter/Vozes-Femininas-Celebrando-o-Legado-e-o-Impacto-das-Mulheres?tab=readme-ov-file#layout-ou-deploy-da-aplica%C3%A7%C3%A3o-dash)
+:small_blue_diamond: [Deploy da Aplicação](https://github.com/DevDecfalter/Vozes-Femininas?tab=readme-ov-file#deploy-da-aplica%C3%A7%C3%A3o-dash)
 
 :small_blue_diamond: [Tecnologias utilizadas](https://github.com/DevDecfalter/Vozes-Femininas-Celebrando-o-Legado-e-o-Impacto-das-Mulheres?tab=readme-ov-file#tecnologias-utilizadas)
 
