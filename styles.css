@@ -53,7 +53,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 header nav ul li a {
@@ -83,8 +83,8 @@ header h1 {
 
 /*Estilo para Main*/
 main {
-    background-color: var(--rosa-empoderado);
-    min-width: 400px;
+    background-color: var(--rosa-suave);
+    min-width: 320px;
     max-width: 800px;
     margin: auto;
     border-bottom-left-radius: 10px;
@@ -117,7 +117,7 @@ section {
 }
 
 article {
-    background-color: var(--rosa-suave);
+    background-color: var(--rosa-empoderado);
     min-width: 65%;
     max-width: 400px;
     padding-bottom: 15px;
@@ -136,7 +136,7 @@ article > h2 {
 
 article ul {
     list-style-type: none;
-    columns: 3;
+    columns: 2;
     padding-left: 55px;
 }
 
@@ -187,7 +187,7 @@ article a {
 
 /* Estilo para os cards */
 .card {
-    background-color: var(--rosa-suave);
+    background-color: var(--rosa-empoderado);
     min-width: 300px;
     max-width: 500px;
     margin: auto;
@@ -320,5 +320,6 @@ footer > p > a:hover {
     header nav ul li:first-child,
     header nav ul li:last-child {
         display: none;
+        columns: 2;
     }
 }
