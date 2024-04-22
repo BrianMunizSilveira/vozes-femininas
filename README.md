@@ -8,7 +8,7 @@
 
 :small_blue_diamond: [Desenvolvedores](https://github.com/DevDecfalter/Vozes-Femininas-Celebrando-o-Legado-e-o-Impacto-das-Mulheres/tree/main?tab=readme-ov-file#desenvolvido-por)
 
-<img src="src/img/logo.png" width="400px" height="400px">
+<img src="src/img/logo-vozes-femininas.png" width="400px" height="400px">
 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=DESENVOLVEDORES&message=Decfalter%20e%20Cat&color=RED&style=for-the-badge"/> <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/> <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 
