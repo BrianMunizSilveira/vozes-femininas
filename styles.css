@@ -1,12 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+
 /* Paleta de cores */
 :root {
     --rosa-suave: #ca2b5b;
     --roxo-suave: #e49cf6;
     --cinza-claro: #EDEDED;
-    --branco: #FFFFFF;
     --rosa-empoderado: rgba(153, 0, 48); 
     --amarelo-resiliente: #FFEB3B;
     --azul-resiliente: #2979FF;
+
+    --cor0: #CD0047;
+    --cor1: #CC2B68;
+    --cor2: #8E345D;
+
+    --fundo: #ffd2e7;
+
+    --fonte0: "Montserrat", sans-serif;;
+    --fonte1: "Roboto Slab", serif;
 }
 
 /* Reset de estilos */
@@ -20,13 +35,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: var(--cinza-claro);
+    background-color: var(--fundo);
 }
 
 /* Estilo para o cabeçalho */
 header {
-    background-color: var(--rosa-empoderado);
-    margin: 10px;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
     padding: 20px;
     text-align: center;
 }
@@ -48,8 +62,13 @@ header nav ul li a {
     color: var(--amarelo-resiliente);
 }
 
+ul {
+    list-style: inside;
+}
+
 li a:hover {
     color: var(--azul-resiliente);
+    transition-duration: 0.4s;
 }
 
 header p {
@@ -60,6 +79,20 @@ header p {
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+}
+
+/*Estilo para Main*/
+main {
+    background-color: var(--rosa-empoderado);
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section {
+    padding: 1px;
 }
 
 /* Estilo para a seção de banner */
@@ -83,21 +116,93 @@ header h1 {
     text-decoration: underline;
 }
 
+article {
+    background-color: var(--rosa-suave);
+    min-width: 65%;
+    max-width: 400px;
+    padding-bottom: 15px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+article > h2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 6px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--amarelo-resiliente);
+}
+
+article ul {
+    list-style-type: none;
+    columns: 3;
+    padding-left: 55px;
+}
+
+article a {
+    font-family: var(--fonte1);
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#literatura {
+    margin-top: 10px;
+    font-family: var(--fonte1);
+    font-size: 1.6rem;
+    color: var(--amarelo-resiliente);
+    text-align: center;
+}
+
+#esportes {
+    margin-top: 10px;
+    font-family: var(--fonte1);
+    font-size: 1.6rem;
+    color: var(--amarelo-resiliente);
+    text-align: center;
+}
+
+
+/*Icones das áreas de conhecimento*/
+.icone-ciencia::before {
+    content: "\1F52C\00A0\00A0";
+}
+  
+.icone-arte::before {
+    content: "\1F3A8\00A0\00A0";
+}
+  
+.icone-politica::before {
+    content: "\1F3DB\00A0\00A0";
+}
+  
+.icone-esporte::before {
+    content: "\1F3C5\00A0\00A0";
+}
+  
+.icone-literatura::before {
+    content: "\1F4DA\00A0\00A0";
+}
+
 /* Estilo para os cards */
 .card {
-    background-color: var(--branco);
+    background-color: var(--rosa-suave);
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
+    box-shadow: 15px 15px 17px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 25px;
     text-align: left;
 }
 
 .card img {
     display: block;
     max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    margin: auto;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -108,24 +213,64 @@ header h1 {
 
 .card p {
     font-size: 16px;
+    line-height: 2em;
     margin-bottom: 10px;
+    font-family: var(--fonte1);
 }
 
 .card a {
-    color: var(--rosa-suave);
+    color: var(--azul-resiliente);
     text-decoration: underline;
+    font-family: var(--fonte0);
+    font-size: 1.2rem;
+}
+
+.card a:hover {
+    color: var(--amarelo-resiliente);
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+sub {
+    font-size: 1rem;
+    font-family: var(--fonte0);
+    color: #d6d6d6;
+}
+
+div > p {
+    color: #fff;
+}
+
+div > h3 {
+    color: var(--amarelo-resiliente);
 }
 
 /* Estilo para o rodapé */
 footer {
-    background-color: var(--rosa-suave);
-    color: var(--branco);
+    margin-top: 15px;
+}
+
+footer > p  {
+    background-color: var(--cor1);
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: var(--azul-resiliente);
+    transition-duration: 0.5s;
 }
 
 /* Media queries para ajustar o layout em dispositivos menores */
-@media (max-width: 480px) {
+@media (max-width: 550px) {
     header h1 {
         font-size: 24px;
     }
@@ -138,6 +283,16 @@ footer {
         font-size: 14px;
     }
 
+    article {
+        margin-bottom: 10px;
+        min-width: 300px;
+        max-width: 450px;
+    }
+
+    article h2 {
+        padding-top: 10px;
+    }
+
     .banner h2 {
         font-size: 18px;
     }
@@ -148,6 +303,8 @@ footer {
 
     .card {
         padding: 10px;
+        max-width: 400px;
+        min-width: 300px;
     }
 
     .card h3 {
@@ -155,15 +312,11 @@ footer {
     }
 
     .card p {
-        font-size: 12px;
-    }
-
-    footer {
-        padding: 10px;
+        font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     header nav ul li:first-child,
     header nav ul li:last-child {
         display: none;
