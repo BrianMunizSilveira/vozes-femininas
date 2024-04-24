@@ -2,13 +2,14 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Decfalter&CatGreen">
-    <meta name="description" content="Vozes Femininas: Descubra o poder das mulheres notáveis que moldaram o mundo. Explore suas histórias inspiradoras em ciência, arte, política e mais.">
-    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
-    <title>Vozes Femininas</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Decfalter&CatGreen">
+  <meta name="description"
+    content="Vozes Femininas: Descubra o poder das mulheres notáveis que moldaram o mundo. Explore suas histórias inspiradoras em ciência, arte, política e mais.">
+  <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+  <title>Vozes Femininas</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -16,88 +17,140 @@
   <header>
     <h1>Vozes Femininas</h1>
     <nav>
-        <ul>
-            <li><img src="src/img/logo.png" alt="Logo"></li>
-            <li><a href="#">HOME</a></li>
-            <li><a href="artigos.html">ARTIGOS</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">CONTATO</a></li>
-            <li><a href="#">QUEM SOMOS</a></li>
-            <li><img src="src/img/logo.png" alt="Logo"></li>
-        </ul>
+      <ul>
+        <li><img src="src/img/logo.png" alt="Logo"></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="artigos.html">ARTIGOS</a></li>
+        <li><a href="#">SOBRE</a></li>
+        <li><a href="#">CONTATO</a></li>
+        <li><a href="#">QUEM SOMOS</a></li>
+        <li><img src="src/img/logo.png" alt="Logo"></li>
+      </ul>
     </nav>
   </header>
 
-    <main>
-      <section class="banner">
-        <h2>
-          <picture>
-              <source media="(max-width: 655px)" srcset="src/img/banner(1)-p.png">
-              <source media="(max-width: 800px)" srcset="src/img/banner(1)-m.png" type="image/png">
-              <img src="src/img/banner(1).png" alt="Banner de boas vindas">
-          </picture>
-        </h2>
-        </section>
+  <main>
+    <section class="banner">
+      <h2>
+        <picture>
+          <source media="(max-width: 655px)" srcset="src/img/banner(1)-p.png">
+          <source media="(max-width: 800px)" srcset="src/img/banner(1)-m.png" type="image/png">
+          <img src="src/img/banner(1).png" alt="Banner de boas vindas">
+        </picture>
+      </h2>
+    </section>
 
-        <section class="destaques">
+    <section class="destaques">
+
+      <article>
+        <h2>CONHEÇA ALGUNS DOS DESTAQUES</h2>
+        <nav>
+          <ul>
+            <li><a href="#arte" class="icone-arte">Arte</a></li>
+            <li><a href="#ciencia" class="icone-ciencia">Ciência</a></li>
+            <li><a href="#esportes" class="icone-esporte">Esportes</a></li>
+            <li><a href="#literatura" class="icone-literatura">Literatura</a></li>
+            <li><a href="#negocios" class="icone-negocios">Negócios</a></li>
+            <li><a href="#politica" class="icone-politica">Política</a></li>
+          </ul>
+        </nav>
+      </article>
+
+      <!-- 
+
+                PERSONALIDADES NAS ARTES
+
+                Frida Kahlo
+                Georgia O'Keeffe
+                Yayoi Kusama
+                Marina Abramović
+                Tarsila do Amaral
+                Tracey Emin
+
+             -->
+
+      <article id="literatura">
+
+        <h3>Literatura</h3>
+
+        <div class="card">
+
+          <h3>Clarice Lispector</h3>
+
+          <img src="/src/img/literatura/clarice-lispector.png" alt="Card 1">
+
+          <p>Clarice Lispector (1920-1977) foi um dos maiores nomes da literatura brasileira do Século XX. Com seu
+            romance inovador e com sua linguagem altamente poética, sua obra se destacou diante dos modelos narrativos
+            tradicionais. Seu primeiro livro, “Perto do Coração Selvagem”, recebeu o Prêmio Graça Aranha.</p>
+
+          <p><a href="/src/pags/literatura/clarice/clarice-lispector.html">Veja mais</a></p>
+
+          <!-- Criar uma página que contenha mididas sobre a personalidade, como fotos, videos, relatos e sobre as suas obras. -->
+
+        </div>
+
+        <div class="card">
+
+          <h3>Anne Frank</h3>
+
+          <img src="/src/img/literatura/anne-frank.png" alt="Card 2">
+
+          <p>Anne Frank (1929-1945), jovem judia vítima do nazismo, faleceu em Bergen-Belsen, Alemanha. Seu diário, "O
+            Diário de Anne Frank", foi publicado por seu pai, sobrevivente de Auschwitz, Polônia.</p>
+
+          <p><a href="/src/pags/literatura/anne/anne-frank.html">Veja mais</a></p>
+
+        </div>
+
+      </article>
+
+      <article id="esportes">
+
+        <h3>Esportes</h3>
+
+        <div class="card">
+
+          <h3>Naomi Osaka</h3>
+
+          <img src="/src/img/esportes/naomi-osaka.png" title="Naomi Osaka" alt="Card N°4">
+
+          <br>
+
+          <sub>Imagem de: <a href="https://olympics.com/pt/atletas/naomi-osaka" title="Referência Bibliográfica" target="_blank" rel="external">Olympics - Naomi Osaka</a></sub>
+
+          <p>Filha de mãe japonesa e pai haitiano, Naomi Osaka ganhou destaque em 2016. Aos 19 anos, recebeu o prêmio de
+            Revelação do Ano da WTA. E isso foi apenas o começo.</p>
+
+          <a href="/src/pags/esportes/naomi-osaka.html">Veja mais</a>
+
+        </div>
+        
+        <div class="card">
+
+          <h3>Rayssa Leal</h3>
           
-            <article>
-              <h2>CONHEÇA ALGUNS DOS DESTAQUES</h2>
-                <nav>
-                <ul>
-                    <li><a href="#ciencia" class="icone-ciencia">Ciência</a></li>
-                    <li><a href="#arte" class="icone-arte">Arte</a></li>
-                    <li><a href="#politica" class="icone-politica">Política</a></li>
-                    <li><a href="#esportes" class="icone-esporte">Esportes</a></li>
-                    <li><a href="#literatura" class="icone-literatura">Literatura</a></li>
-                    <!-- Adicione mais campos conforme necessário -->
-                  </ul>
-                </nav>
-            </article>
-            
-            <h3 id="literatura">Literatura</h3>
+          <img src="/src/img/esportes/rayssa-leal.png" title="Rayssa Leal" alt="Card N°5">
+          <br>
+          <sub>Imagem de: <a href="https://olympics.com/pt/atletas/rayssa-leal" title="Referência Bibliográfica" target="_blank" rel="external">Olympics - Rayssa Leal</a></sub>
 
-            <div class="card">
-              <h3>Clarice Lispector</h3>
-              <img src="/src/img/literatura/clarice-lispector.png" alt="Card 1">
-              <p>Clarice Lispector (1920-1977) foi um dos maiores nomes da literatura brasileira do Século XX. Com seu romance inovador e com sua linguagem altamente poética, sua obra se destacou diante dos modelos narrativos tradicionais. Seu primeiro livro, “Perto do Coração Selvagem”, recebeu o Prêmio Graça Aranha.</p>
-              <p><a href="/src/pags/literatura/clarice/clarice-lispector.html">Veja mais</a></p>
-              <!-- Criar uma página que contenha mididas sobre a personalidade, como fotos, videos, relatos e sobre as suas obras. -->
-            </div>
+          <p>Rayssa Leal nasceu em 4 de janeiro de 2008, em Imperatriz, no Maranhão. Aos 16 anos, com 1,47m de altura,
+            ganhou fama através de vídeos virais. Um clipe dela realizando uma manobra em um lance de escadas enquanto
+            vestia um tutu azul brilhante explodiu nas redes sociais quando ela tinha apenas 7 anos.</p>
 
-            <div class="card">
-              <h3>Anne Frank</h3>
-              <img src="/src/img/literatura/anne-frank.png" alt="Card 2">
-              <p>Anne Frank (1929-1945), jovem judia vítima do nazismo, faleceu em Bergen-Belsen, Alemanha. Seu diário, "O Diário de Anne Frank", foi publicado por seu pai, sobrevivente de Auschwitz, Polônia.</p>
-              <p><a href="/src/pags/literatura/anne/anne-frank.html">Veja mais</a></p>
-            </div>
+          <a href="/src/pags/esportes/rayssa-leal.html">Veja mais</a>
 
-            <h3 id="esportes">Esportes</h3>
+        </div>
 
-            <div class="card">
-              <h3>Naomi Osaka</h3>
-              <img src="/src/img/esportes/naomi-osaka.png" title="Naomi Osaka" alt="Card N°4">
-              <br>
-              <sub>Imagem de: <a href="https://olympics.com/pt/atletas/naomi-osaka" title="Referência Bibliográfica" target="_blank" rel="external">Olympics - Naomi Osaka</a></sub>
-              <p>Filha de mãe japonesa e pai haitiano, Naomi Osaka ganhou destaque em 2016. Aos 19 anos, recebeu o prêmio de Revelação do Ano da WTA. E isso foi apenas o começo.</p>
-              <a href="/src/pags/esportes/naomi-osaka.html">Veja mais</a>
-          </div>
+      </article>
 
-          <div class="card">
-              <h3>Rayssa Leal</h3>
-              <img src="/src/img/esportes/rayssa-leal.png" title="Rayssa Leal" alt="Card N°5">
-              <br>
-              <sub>Imagem de: <a href="https://olympics.com/pt/atletas/rayssa-leal" title="Referência Bibliográfica" target="_blank" rel="external">Olympics - Rayssa Leal</a></sub>
-              <p>Rayssa Leal nasceu em 4 de janeiro de 2008, em Imperatriz, no Maranhão. Aos 16 anos, com 1,47m de altura, ganhou fama através de vídeos virais. Um clipe dela realizando uma manobra em um lance de escadas enquanto vestia um tutu azul brilhante explodiu nas redes sociais quando ela tinha apenas 7 anos.</p>
-              <a href="/src/pags/esportes/rayssa-leal.html">Veja mais</a>
-          </div>
-        </section>
+    </section>
 
-    </main>
+  </main>
 
-    <footer>
-        <p>SITE DESENVOLVIDO POR <a href="https://github.com/DevDecfalter" target="_blank">DECFALTER</a> e <a href="https://github.com/JGuilherme2005" target="_blank">CATGREEN</a></p>
-    </footer>
+  <footer>
+    <p>SITE DESENVOLVIDO POR <a href="https://github.com/DevDecfalter" target="_blank">DECFALTER</a> e <a
+        href="https://github.com/JGuilherme2005" target="_blank">CATGREEN</a></p>
+  </footer>
 
 </body>
 

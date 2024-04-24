@@ -181,7 +181,7 @@ article a {
 }
   
 .icone-politica::before {
-    content: "\1F3DB\00A0\00A0";
+    content: "\1F3DB\FE0F\00A0\00A0"; /*U+1F3DB U+FE0F = 🏛️*/
 }
   
 .icone-esporte::before {
@@ -190,6 +190,10 @@ article a {
   
 .icone-literatura::before {
     content: "\1F4DA\00A0\00A0";
+}
+
+.icone-negocios::before {
+    content: "\1F4BC\00A0\00A0";
 }
 
 /* Estilo para os cards */
